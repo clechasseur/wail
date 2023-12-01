@@ -1,0 +1,29 @@
+Wail source code
+by Charles Lechasseur
+
+
+Finally!
+
+Well, i've been promising this for far too long. Here's the source code to Wail at last.
+
+The project was built with CodeWarrior Pro 4, with all the patches. The Wail binaries I distribute were built with PowerPlant 1.9.3 (the patched Pro 4 version) with the official PP 1.9.3 errata. I used the Universal Headers supplied with Pro 4 and its patches, i have not upgraded to the latest version.
+
+The code *should* be pretty straightforward, I guess. It uses PowerPlant heavily and is not all that generic (the early classes like CWailDocWindow and CWailSoundFileData are a bit ugly). It gets better toward the end... :)
+
+It does include some fairly useful generic classes, like a Window menu manager attachment (CWindowTracker/CTrackableWindow), a scratch disk system (CVirtualMemoryManager) and a wrapper for various sound manager structures (CSoundChannel and CJukebox).
+
+I released the code because now that Aleph One is progressing nicely, perhaps people will find some use in this code as an inspiration for other MacOS-based editors. I wish it wouldn't be tied to the MacOS so much since it makes it difficult to port to other platforms, but it's a start.
+
+
+License
+
+Wail is distributed under a BSD-like free software license. See the accompanying LICENSE file for details. The latest source code can always be found on my web site, below.
+
+Wail also uses code taken from the MoreFiles package. MoreFiles is a collection of file-related routines made by Apple. It is distributed with the Wail source code but is covered by its own license (compatible with the Wail license); see the file named "!MoreFilesReadme" in the MoreFiles source folder for details.
+
+
+How to contact me
+
+If you need help with the source code, don't hesitate to ask me about it. I'll try to help you to the best of my ability. My e-mail address is danov@videotron.ca.
+
+For Wail and other useful Marathon utilities, visit my web page at http://pages.infinit.net/danov/marathon/.
